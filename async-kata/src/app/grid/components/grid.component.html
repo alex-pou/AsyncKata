@@ -1,0 +1,14 @@
+<div class="header">
+  <h1>Async Demo</h1>
+</div>
+<div class="content">
+  <div class="buttons">
+    <button type="button-wrapper" class="button" (click)="onGetFact()">Get a fact!</button>
+    <button type="button-wrapper" class="button left" (click)="onGetFactWithError()">Get an error</button>
+  </div>
+  <p class="error-text" *ngIf="error">{{ error }}</p>
+  <p *ngIf="loading">Loading...</p>
+  <div class="fact-target" *ngIf="facts">
+      <p>{{ facts.text }}</p>
+  </div>
+</div>

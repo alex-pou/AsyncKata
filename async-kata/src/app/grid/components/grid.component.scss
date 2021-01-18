@@ -1,0 +1,47 @@
+.header {
+  background-color: lightsteelblue;
+  margin-top: 0;
+  margin-bottom: 5em;
+  padding: .5em;
+  text-align: center;
+  color: #333;
+}
+
+.content {
+  text-align: center;
+}
+
+.fact-target {
+  border: 2px solid #ccc;
+  width: 300px;
+  border-radius: 1px;
+  padding: 1em;
+  text-align: center;
+  margin: auto
+}
+
+.button {
+  padding: 1em 1.5em;
+  border: 1px solid #ccc;
+  color: #666;
+  margin-right: 9em;
+  margin-bottom: 2em;
+  cursor: pointer;
+
+  &.left {
+    margin-right: 0;
+  }
+
+  &:hover {
+    background-color: #CCC;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.error-text {
+  color: red;
+  margin-top: 0;
+}
